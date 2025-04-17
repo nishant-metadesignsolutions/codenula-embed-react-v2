@@ -3,22 +3,22 @@
 =======
 <!-- markdownlint-disable MD030 -->
 
-# Flowise Embed React
+# codenula Embed React
 
-React library to display flowise chatbot on your website
+React library to display codenula chatbot on your website
 
-![Flowise](https://github.com/FlowiseAI/FlowiseChatEmbed/blob/main/images/ChatEmbed.gif?raw=true)
+![codenula](https://github.com/FlowiseAI/FlowiseChatEmbed/blob/main/images/ChatEmbed.gif?raw=true)
 
 ## Install
 
 ```bash
-npm install flowise-embed flowise-embed-react
+npm install codenula-embed-v2 codenula-embed-react-v2
 ```
 
 or
 
 ```bash
-yarn add flowise-embed flowise-embed-react
+yarn add codenula-embed-v2 codenula-embed-react-v2
 ```
 
 ## Import
@@ -26,7 +26,7 @@ yarn add flowise-embed flowise-embed-react
 Full Page Chat
 
 ```tsx
-import { FullPageChat } from "flowise-embed-react";
+import { FullPageChat } from "codenula-embed-react-v2";
 
 const App = () => {
   return (
@@ -41,7 +41,7 @@ const App = () => {
 Popup Chat
 
 ```tsx
-import { BubbleChat } from "flowise-embed-react";
+import { BubbleChat } from "codenula-embed-react-v2";
 
 const App = () => {
   return (

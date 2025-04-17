@@ -1955,6 +1955,29 @@ cli-boxes@^3.0.0:
   resolved "https://registry.yarnpkg.com/cli-boxes/-/cli-boxes-3.0.0.tgz#71a10c716feeba005e4504f36329ef0b17cf3145"
   integrity sha512-/lzGpEWL/8PfI0BmBOPRwp0c/wFNX1RdUML3jK/RcSBA9T8mZDdQpqYBKtCFTOfQbwPqWEOpjqW+Fnayc0969g==
 
+codenula-embed-v2@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/codenula-embed-v2/-/codenula-embed-v2-1.0.0.tgz#27b3de1c21af9c5c8a5c88be7a36a77d7157d441"
+  integrity sha512-BcV2I3Ys8vbeDw5JTjx3tYr9JqlcuhlDXo3adUlKDCBAQaG2bSat8ZLQTXekM2Y20WkIEbfNAQ6zzHb8gg/RiA==
+  dependencies:
+    "@babel/core" "^7.22.1"
+    "@microsoft/fetch-event-source" "^2.0.1"
+    "@ts-stack/markdown" "^1.4.0"
+    axios "^1.7.7"
+    cors "^2.8.5"
+    cross-env "^7.0.3"
+    device-detector-js "^3.0.3"
+    dotenv "^16.4.5"
+    express "^4.21.1"
+    form-data "^4.0.1"
+    lodash "^4.17.21"
+    multer "^1.4.5-lts.1"
+    node-fetch "^3.3.2"
+    prettier "^3.1.0"
+    solid-element "1.7.0"
+    solid-js "1.7.1"
+    zod "^3.22.4"
+
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
@@ -2627,29 +2650,6 @@ flatted@^3.2.7:
   version "3.2.9"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.9.tgz#7eb4c67ca1ba34232ca9d2d93e9886e611ad7daf"
   integrity sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==
-
-flowise-embed@latest:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/flowise-embed/-/flowise-embed-2.1.0.tgz#0491f304f6280bef9a96939ed81282ef23fb749b"
-  integrity sha512-a6A4gnYUCOXxiSQtIZciAQe9vyN7geM5CIv5fVTOpCEkjK13j2tSRjKe+XZqm8hb/nYe5me+5qCsrioqXjl3Kw==
-  dependencies:
-    "@babel/core" "^7.22.1"
-    "@microsoft/fetch-event-source" "^2.0.1"
-    "@ts-stack/markdown" "^1.4.0"
-    axios "^1.7.7"
-    cors "^2.8.5"
-    cross-env "^7.0.3"
-    device-detector-js "^3.0.3"
-    dotenv "^16.4.5"
-    express "^4.21.1"
-    form-data "^4.0.1"
-    lodash "^4.17.21"
-    multer "^1.4.5-lts.1"
-    node-fetch "^3.3.2"
-    prettier "^3.1.0"
-    solid-element "1.7.0"
-    solid-js "1.7.1"
-    zod "^3.22.4"
 
 follow-redirects@^1.15.6:
   version "1.15.9"
